@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background: linear-gradient(90deg, #FF0101 30%, #000000 30%);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.loga__text {
+    padding-left: 31px ;
+    
+   
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.header__ul{
+    display: flex;
+    justify-content: end;
+}
+.header__li {
+    display: flex;
+    justify-content: end;
+
+    line-height: 27px;
+    font-weight: 600, ;
+    font-size: 18px;
+    padding-right: 71px;
+
+}
+
+.header__li__sss {
+    font-family: 'Alice', serif;
+    font-family: 'Hind Madurai', sans-serif;
+    text-decoration: none;
+    color: honeydew;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
