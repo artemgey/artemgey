@@ -19,6 +19,7 @@ li {
 .wrapper {
     height: 100vh;
     background: linear-gradient(90deg, #FF0101 30%, #000000 30%);
+    overflow: hidden;
 }
 
 .header {
@@ -26,24 +27,28 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 46px;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
 
 .loga__text {
-    padding-left: 31px ;
-    
-   
+    padding-left: 31px;
+
+
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
 }
-.header__ul{
+
+.header__ul {
     display: flex;
     justify-content: end;
 }
+
 .header__li {
     display: flex;
     justify-content: end;
@@ -61,7 +66,73 @@ li {
     text-decoration: none;
     color: honeydew;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__input {
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 8px;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 44px;
+}
+
+.header__ul {
+    display: flex;
+    margin-right: 54px;
+}
+
+.header__input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #A8A8A8;
+}
+
+.header__search {
+    position: relative;
+    width: 189px;
+}
+
+.header__search::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__car {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 350px;
+    line-height: 525px;
+    color: #FFFFFF;
+}
+
+.img__car {
+    transform: translateY(-64%);
+    align-items: center;
 }
